@@ -240,12 +240,12 @@ def ismemberpresent(id):
 
 # start command
 
-button = [
+buttons = [
     [
-        Button.url("𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url ="https://t.me/Raj_Files" )
+        InlineKeyboardButton("𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url="https://t.me/Raj_Files"),
     ],
     [
-        Button.url("𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑺𝒆𝒄𝒐𝒏𝒅 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url = "https://t.me/BotsHubs")
+        InlineKeyboardButton("𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑺𝒆𝒄𝒐𝒏𝒅 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url="https://t.me/BotsHubs")
     ]
 ]
 reply_markups = InlineKeyboardMarkup(buttons)
