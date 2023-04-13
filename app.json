@@ -1,0 +1,12 @@
+{
+  "name": "my-bot",
+  "description": "A simple Python bot hosted on Heroku",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "scripts": {
+    "start": "python bot.py"
+  }
+}
