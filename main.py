@@ -240,7 +240,7 @@ def ismemberpresent(id):
 
 # start command
 
-buttons = [
+button = [
     [
         Button.url("𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍", url ="https://t.me/Raj_Files" )
     ],
